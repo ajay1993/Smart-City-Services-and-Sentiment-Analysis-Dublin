@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<rdf:RDF
+    xmlns="http://xmlns.com/foaf/0.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:sioct="http://rdfs.org/sioc/types#">
+
+<foaf:Document rdf:about="">
+	<dc:title>SIOC profile for "boards.ie"</dc:title>
+	<dc:description>A SIOC profile describes the structure and contents of a community site (e.g., weblog) in a machine processable form. For more information refer to the &lt;a href=&quot;http://rdfs.org/sioc&quot;&gt;SIOC project page&lt;/a&gt;</dc:description>
+	<foaf:primaryTopic rdf:resource="http://boards.ie/vbulletin/showpost.php?p=67076"/>
+	<admin:generatorAgent rdf:resource="http://wiki.sioc-project.org/index.php/PHPExportAPI?version=1.01"/>
+	<admin:generatorAgent rdf:resource="http://sw.deri.org/svn/sw/2005/08/sioc/vbulletin/"/>
+</foaf:Document>
+
+<sioct:BoardPost rdf:about="http://boards.ie/vbulletin/showpost.php?p=67076">
+	<rdf:type rdf:resource="http://rdfs.org/sioc/ns#Post" />
+	<dcterms:created>1998-04-25T22:12:00Z</dcterms:created>
+	<sioc:content>Anybody like Predator who plays on iol from galway can get a borrowed tinet account for games i spose. Tinet gets a good connection to UK.
+
+
+
+:  zero, those players that are trialing for hib team, (hpb's) most of them are like 300 -400 pingers? umm..mager lagg
+: and even worse when they play on uk server's i bet:/</sioc:content>
+	<content:encoded><![CDATA[Anybody like Predator who plays on iol from galway can get a borrowed tinet account for games i spose. Tinet gets a good connection to UK.
+
+
+
+:  zero, those players that are trialing for hib team, (hpb's) most of them are like 300 -400 pingers? umm..mager lagg
+: and even worse when they play on uk server's i bet:/
+
+]]></content:encoded>
+	<sioc:reply_of>
+		<sioc:Post rdf:about="http://boards.ie/vbulletin/showpost.php?p=67075">
+			<rdfs:seeAlso rdf:resource="http://boards.ie/vbulletin/sioc.php?sioc_type=post&amp;sioc_id=67075"/>
+		</sioc:Post>
+	</sioc:reply_of>
+</sioct:BoardPost>
+</rdf:RDF>
+
